@@ -1,0 +1,12 @@
+how_it_works:
+  name: How it works
+  styles:
+    bg: bg-teal-100
+    fg: text-teal-800
+    svg: text-teal-400
+javascript:
+  name: JavaScript
+  styles:
+    bg: bg-yellow-100
+    fg: text-yellow-800
+    svg: text-yellow-400

@@ -1,0 +1,20 @@
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      title: Funky Parentheses
+      excerpt_separator: <!--excerpt-until-here-->
+
+theme: null
+livereload: true
+
+exclude:
+  - CNAME
+  - package.json
+  - postcss.config.js
+  - tailwind.config.js
+  - yarn.lock
+  - _postcss/
+  - bin/

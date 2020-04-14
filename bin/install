@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo
+echo '[1/2] 👉 Bundle install...'
+echo
+
+bundle install
+
+echo
+echo '[2/2] 👉 Yarn install...'
+echo
+
+yarn install
+
+echo
+echo '✅ Done.'

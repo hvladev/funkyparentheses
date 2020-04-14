@@ -1,0 +1,6 @@
+.jekyll-cache
+.jekyll-metadata
+.DS_STORE
+
+/_site
+/node_modules
