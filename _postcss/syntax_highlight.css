@@ -1,0 +1,86 @@
+/**
+ * === Colors from https://github.com/reactjs/reactjs.org/blob/master/src/theme.js
+ *
+ * const colors = {
+ *   dark: '#282c34', // dark blue
+ *   white: '#ffffff',
+ * };
+ *
+ * const prismColors = {
+ *   char: '#D8DEE9',
+ *   comment: '#B2B2B2',
+ *   keyword: '#c5a5c5',
+ *   lineHighlight: '#353b45', // colors.dark + extra lightness
+ *   primitive: '#5a9bcf',
+ *   string: '#8dc891',
+ *   variable: '#d7deea',
+ *   boolean: '#ff8b50',
+ *   punctuation: '#88C6BE',
+ *   tag: '#fc929e',
+ *   function: '#79b6f2',
+ *   className: '#FAC863',
+ *   method: '#6699CC',
+ *   operator: '#fc929e',
+ * };
+ *
+ * === Additional colors
+ *
+ * line number - #596273
+ */
+
+.code-snippet {
+  @apply flex py-4 px-5 rounded-md text-sm leading-snug;
+  background: #282c34;
+  color: #ffffff;
+  font-family: 'Hack', monospace;
+
+  & + .code-snippet { @apply mt-5 }
+
+  & > pre[class*="language-"] { @apply whitespace-pre-wrap break-words; }
+
+  .line-numbers {
+    @apply mr-3 text-right;
+    color: #596273;
+  }
+
+  .token.attr-name   { color: #c5a5c5; }
+  .token.boolean     { color: #ff8b50; }
+  .token.tag         { color: #fc929e; }
+  .token.string      { color: #8dc891; }
+  .token.punctuation { color: #88C6BE; }
+  .token.function    { color: #79b6f2; }
+  .token.attr-value  { color: #8dc891; }
+  .token.keyword     { color: #c5a5c5; }
+
+  .token.comment,
+  .token.block-comment,
+  .token.prolog,
+  .token.doctype,
+  .token.cdata { color: #B2B2B2; }
+
+  .token.property,
+  .token.number,
+  .token.function-name,
+  .token.constant,
+  .token.symbol,
+  .token.deleted { color: #5a9bcf; }
+
+  .token.selector,
+  .token.char,
+  .token.builtin,
+  .token.inserted { color: #D8DEE9; }
+
+  .token.operator,
+  .token.entity,
+  .token.url,
+  .token.variable { color: #d7deea; }
+
+  .token.atrule,
+  .token.class-name { color: #FAC863; }
+
+  .token.important { font-weight: 400; }
+  .token.bold { font-weight: 700; }
+  .token.italic { font-style: italic; }
+  .token.entity { cursor: help; }
+  .namespace { opacity: 0.7; }
+}
