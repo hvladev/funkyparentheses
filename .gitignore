@@ -2,5 +2,7 @@
 .jekyll-metadata
 .DS_STORE
 
+/assets/css/main.css
+
 /_site
 /node_modules
