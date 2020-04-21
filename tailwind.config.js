@@ -3,6 +3,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'heading': '"Barlow Condensed", sans-serif',
+        'body': '"Open Sans", sans-serif',
       }
     },
   },

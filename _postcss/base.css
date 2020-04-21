@@ -1,0 +1,16 @@
+body { @apply font-body; }
+
+h1,
+h2,
+h3 { @apply mt-10 mb-7 font-heading font-bold leading-tight text-gray-800; }
+
+h1 { @apply text-5xl; }
+h2 { @apply text-3xl; }
+h3 { @apply text-xl; }
+
+p { @apply mb-5 text-left; }
+
+:not(pre) > code { @apply p-0.5 rounded bg-gray-200; }
+
+a { @apply text-pink-500 underline; }
+a:hover { @apply text-pink-700 no-underline; }

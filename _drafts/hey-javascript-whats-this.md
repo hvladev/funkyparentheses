@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hey, JavaScript, what's this?"
+ordinal_number: 1
 tags:
   - how_it_works
   - javascript
