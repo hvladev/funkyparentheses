@@ -1,4 +1,8 @@
 module.exports = {
+  purge: [
+    './**/*.html',
+    './**/*.md',
+  ],
   theme: {
     extend: {
       fontFamily: {
