@@ -8,7 +8,7 @@ h1 { @apply text-5xl; }
 h2 { @apply text-3xl; }
 h3 { @apply text-xl; }
 
-p { @apply mb-5 text-left; }
+p { @apply my-5 text-left; }
 
 :not(pre) > code { @apply p-0.5 rounded bg-gray-200; }
 
